@@ -14,6 +14,13 @@ package frc.robot;
  */
 public final class Constants {
   public static class OperatorConstants {
-    public static final int kDriverControllerPort = 0;
+    public static final int iDriver = 0;
+  }
+
+  public static class MotorIDs {
+    public static final int iSparkLF = 0;
+    public static final int iSparkLB = 1;
+    public static final int iSparkRF = 2;
+    public static final int iSparkRB = 3;
   }
 }
